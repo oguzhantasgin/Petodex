@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".welcome.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="38dp">
+
+        <ImageView
+            android:id="@+id/imageViewSplash"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/petodex_icon_big" />
+
+        <TextView
+            android:id="@+id/textViewSplash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/splash"
+            android:textColor="@color/colorWelcome"
+            android:textSize="@dimen/welcome"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/textViewSplashTour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tour"
+            android:textColor="@color/colorWelcome"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColorHighlight="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:freezesText=""
+                      />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
