@@ -54,8 +54,7 @@ public class OnBoardActivity extends AppCompatActivity {
 
                 if (mButtonNext.getText().toString() == getString(R.string.finish)) {
 
-                    Intent intent = new Intent();
-
+// new activity to do anything
 
                 }
 
