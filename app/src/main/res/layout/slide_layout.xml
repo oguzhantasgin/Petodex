@@ -21,7 +21,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="245dp"
         android:text="HEADING"
-        android:textColor="@color/colorWelcome"
+        android:textColor="@color/colorWhite"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -36,8 +36,8 @@
         android:padding="35dp"
         android:text="Petodex,evcil hayvanlarınızın aşılarını kolayca takip edebilmenize yardımcı olur"
         android:textAlignment="center"
-        android:textColor="@color/colorWelcome"
-        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp"
         android:textStyle="bold" />
 
 </RelativeLayout>

@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Petodex</string>
     <string name="splash">Evcil hayvanlarınız hakkında herşey</string>
-    <string name="tour">KISA TUR</string>
+    <string name="tour">KISA TUR İÇİN DOKUN</string>
+    <string name="next">İleri</string>
+    <string name="pre">Geri</string>
+    <string name="finish">Anladım</string>
 </resources>

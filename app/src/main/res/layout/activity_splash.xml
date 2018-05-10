@@ -29,7 +29,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/splash"
-            android:textColor="@color/colorWelcome"
+            android:textColor="@color/colorWhite"
             android:textSize="@dimen/welcome"
             android:textStyle="bold"
 
@@ -40,12 +40,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tour"
-            android:textColor="@color/colorWelcome"
+            android:textColor="@color/colorWhite"
             android:textSize="20dp"
             android:textStyle="bold"
             android:textColorHighlight="@color/colorAccent"
             android:layout_gravity="center_horizontal"
-            android:freezesText=""
+
                       />
 
 
