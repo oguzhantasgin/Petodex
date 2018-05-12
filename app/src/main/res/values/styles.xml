@@ -8,15 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LoginActivityTheme">
-        <item name="colorLoginPrimary">@color/colorPrimary</item>
-        <item name="colorLoginPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorLoginAccent">@color/colorAccent</item>
-        <item name="colorLoginFacebook">@color/colorFacebookBlue</item>
-        <item name="colorLoginTwitter">@color/colorTwitterBlue</item>
-        <item name="colorLoginGoogle">@color/colorGoogleRed</item>
 
-
-    </style>
 
 </resources>
