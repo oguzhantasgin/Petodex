@@ -5,4 +5,9 @@
     <color name="colorAccent">#b6dcdc40</color>
     <color name="colorWelcome">#fceac2</color>
     <color name="colorWhite">#f5f1e8</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorFacebookBlue">#3B5998</color>
+    <color name="colorTwitterBlue">#00aced</color>
+    <color name="colorGoogleRed">#dd4b39</color>
+    <color name= "colorTransparent">#00DD3939</color>
 </resources>

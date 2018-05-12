@@ -5,4 +5,11 @@
     <string name="next">İleri</string>
     <string name="pre">Geri</string>
     <string name="finish">Anladım</string>
+    <string name="login">GİRİŞ</string>
+    <string name="password">Parola</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="remember">Beni hatırla</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="login_type">Ya da herhangi biri ile giriş</string>
+    <string name="remember_password">Şifreni mi unuttun ?</string>
 </resources>
