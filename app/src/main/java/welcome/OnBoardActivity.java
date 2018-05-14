@@ -24,6 +24,7 @@ public class OnBoardActivity extends AppCompatActivity {
     private SlideAdapter slideAdapter;
     private Button mButtonNext;
     private Button mButtonPre;
+    private Button mButtonLogin;
     private int currentPage;
 
 
@@ -119,19 +120,18 @@ public class OnBoardActivity extends AppCompatActivity {
 
             if (i == 0) {
 
-
                 mButtonNext.setEnabled(true);
                 mButtonPre.setEnabled(false);
                 mButtonPre.setVisibility(View.INVISIBLE);
-
                 mButtonNext.setText(R.string.next);
                 mButtonPre.setText("");
+
             } else if (i == mDots.length - 1) {
 
-                mButtonNext.setEnabled(false);
+                mButtonNext.setEnabled(true);
                 mButtonPre.setEnabled(true);
                 mButtonPre.setVisibility(View.VISIBLE);
-
+                //mButtonNext.setVisibility(View.INVISIBLE);
                 mButtonNext.setText(R.string.finish);
                 mButtonPre.setText(R.string.pre);
 
@@ -141,7 +141,6 @@ public class OnBoardActivity extends AppCompatActivity {
                 mButtonNext.setEnabled(true);
                 mButtonPre.setEnabled(true);
                 mButtonPre.setVisibility(View.VISIBLE);
-
                 mButtonNext.setText(R.string.next);
                 mButtonPre.setText(R.string.pre);
 
@@ -162,6 +161,7 @@ public class OnBoardActivity extends AppCompatActivity {
         mDotLayout = findViewById(R.id.dotsLayout);
         mButtonNext = findViewById(R.id.nextButton);
         mButtonPre = findViewById(R.id.preButton);
+
 
     }
 
