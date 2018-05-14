@@ -11,7 +11,7 @@ import java.util.List;
 import pets.Pet;
 
 @Dao
-public interface IPetsDAO {
+public interface IPetDAO {
 
     @Insert
     void insertPet(Pet... student);
