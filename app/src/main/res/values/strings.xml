@@ -13,4 +13,5 @@
     <string name="login_type">Ya da herhangi biri ile giriş</string>
     <string name="remember_password">Şifreni mi unuttun ?</string>
     <string name="new_account">Üyeliğin yok mu ? Kaydol</string>
+    <string name="pet_info_title">Evcil hayvanlarım</string>
 </resources>

@@ -5,7 +5,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
-import android.transition.Slide;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -24,7 +23,6 @@ public class OnBoardActivity extends AppCompatActivity {
     private SlideAdapter slideAdapter;
     private Button mButtonNext;
     private Button mButtonPre;
-    private Button mButtonLogin;
     private int currentPage;
 
 
