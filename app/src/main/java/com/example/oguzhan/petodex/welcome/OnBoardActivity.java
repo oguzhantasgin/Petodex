@@ -1,4 +1,4 @@
-package welcome;
+package com.example.oguzhan.petodex.welcome;
 
 import android.content.Intent;
 import android.support.v4.view.ViewPager;
@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import com.example.oguzhan.petodex.R;
 
-import adapter.SlideAdapter;
-import user.LoginActivity;
+import com.example.oguzhan.petodex.adapter.SlideAdapter;
+import com.example.oguzhan.petodex.user.LoginActivity;
 
 public class OnBoardActivity extends AppCompatActivity {
 

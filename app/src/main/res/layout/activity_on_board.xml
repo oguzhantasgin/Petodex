@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/petodex_background"
-    tools:context="welcome.OnBoardActivity">
+    tools:context="com.example.oguzhan.petodex.welcome.OnBoardActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/slideViewPager"

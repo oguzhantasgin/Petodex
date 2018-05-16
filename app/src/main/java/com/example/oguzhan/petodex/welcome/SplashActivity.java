@@ -1,4 +1,4 @@
-package welcome;
+package com.example.oguzhan.petodex.welcome;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

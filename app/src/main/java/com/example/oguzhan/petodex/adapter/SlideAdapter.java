@@ -1,4 +1,4 @@
-package adapter;
+package com.example.oguzhan.petodex.adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -14,16 +14,11 @@ import com.example.oguzhan.petodex.R;
 
 public class SlideAdapter extends PagerAdapter {
 
-
     Context context;
     LayoutInflater layoutInflater;
 
     public SlideAdapter(Context context) {
-
-
         this.context = context;
-
-
     }
 
     public int[] slide_images = {
@@ -40,7 +35,6 @@ public class SlideAdapter extends PagerAdapter {
     };
 
     public String[] slide_desc = {
-
             "Petodex,evcil hayvanlarınızın aşılarını kolayca takip edebilmenize yardımcı olur.",
             "Evcil hayvanlarınızın kısa bir karnesinini oluşturun.",
             "Mama tüketimini kontrol altında tutun ve satın alımınızı düzenleyin.",
@@ -49,8 +43,6 @@ public class SlideAdapter extends PagerAdapter {
 
     @Override
     public int getCount() {
-
-
         return slide_headings.length;
     }
 
@@ -62,7 +54,6 @@ public class SlideAdapter extends PagerAdapter {
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
-
 
         layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.slide_layout, container, false);

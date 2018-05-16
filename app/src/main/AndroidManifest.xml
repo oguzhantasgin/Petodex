@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:theme="@style/AppThemeNoActionBar"
-            android:name="welcome.SplashActivity">
+            android:name="com.example.oguzhan.petodex.welcome.SplashActivity"
+            android:theme="@style/AppThemeNoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,15 +19,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:theme="@style/AppThemeNoActionBar"
-            android:name="welcome.OnBoardActivity" />
+            android:name="com.example.oguzhan.petodex.welcome.OnBoardActivity"
+            android:theme="@style/AppThemeNoActionBar" />
         <activity
-            android:theme="@style/AppThemeNoActionBar"
-            android:name="user.LoginActivity" />
-        <activity
-            android:label="@string/pet_info_title"
-            android:theme="@style/AppTheme"
-            android:name="pets.PetInfo"></activity>
+            android:name="com.example.oguzhan.petodex.user.LoginActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity android:theme="@style/AppTheme" android:name="com.example.oguzhan.petodex.pets.PetRecyclerViewActivity"></activity>
     </application>
 
 </manifest>

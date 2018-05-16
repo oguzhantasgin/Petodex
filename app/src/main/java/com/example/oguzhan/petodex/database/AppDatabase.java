@@ -1,4 +1,4 @@
-package database;
+package com.example.oguzhan.petodex.database;
 
 
 import android.arch.persistence.db.SupportSQLiteDatabase;
@@ -8,15 +8,15 @@ import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.migration.Migration;
 import android.content.Context;
 
-import dao.IPetDAO;
-import pets.Pet;
+import com.example.oguzhan.petodex.dao.IPetDAO;
+import com.example.oguzhan.petodex.pets.Pet;
 
 
 @Database(entities = {Pet.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase appDatabase;
 
-    public abstract IPetDAO getStudentDAO();
+    public abstract IPetDAO getPetDAO();
 
     private static final String databaseName = "Petodex";
 
@@ -31,7 +31,6 @@ public abstract class AppDatabase extends RoomDatabase {
         return appDatabase;
     }
 
-
     public static void destroyInstance() {
         appDatabase = null;
     }
@@ -41,7 +40,6 @@ public abstract class AppDatabase extends RoomDatabase {
         public void migrate(SupportSQLiteDatabase database) {
 
             // version change codes put here
-
         }
     };
 
