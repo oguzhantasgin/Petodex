@@ -14,4 +14,11 @@
     <string name="remember_password">Şifreni mi unuttun ?</string>
     <string name="new_account">Üyeliğin yok mu ? Kaydol</string>
     <string name="pet_info_title">Evcil hayvanlarım</string>
+    <string name="new_pet">Yeni evcil hayvanımı ekle</string>
+    <string name="addPetName">Adı</string>
+    <string name="addPetAge">Yaşı</string>
+    <string name="addPetStrain">Cinsi</string>
+    <string name="addPetType">Türü</string>
+    <string name="add">Ekle</string>
+
 </resources>

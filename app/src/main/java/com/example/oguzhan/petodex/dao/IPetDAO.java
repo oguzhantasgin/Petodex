@@ -28,4 +28,7 @@ public interface IPetDAO {
     @Query("SELECT * FROM Pet WHERE id=:id")
     Pet loadPetById(int id);
 
+    @Query("SELECT * FROM Pet WHERE id=:id")
+    boolean existsPet(int id);
+
 }

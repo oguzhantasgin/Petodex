@@ -11,14 +11,13 @@ import android.content.Context;
 import com.example.oguzhan.petodex.dao.IPetDAO;
 import com.example.oguzhan.petodex.pets.Pet;
 
-
 @Database(entities = {Pet.class}, version = 1)
 public abstract class AppDatabase extends RoomDatabase {
     private static AppDatabase appDatabase;
 
     public abstract IPetDAO getPetDAO();
 
-    private static final String databaseName = "Petodex";
+    private static final String databaseName = "PetodexDB";
 
     public static AppDatabase getAppDatabase(Context context) {
         if (appDatabase == null) {

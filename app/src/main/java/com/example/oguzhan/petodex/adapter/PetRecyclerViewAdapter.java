@@ -13,14 +13,16 @@ import com.example.oguzhan.petodex.pets.Pet;
 
 import java.util.List;
 
+import co.dift.ui.SwipeToAction;
+
 
 public class PetRecyclerViewAdapter extends RecyclerView.Adapter<PetRecyclerViewAdapter.MyViewHolder> {
 
     private List<Pet> listPets;
 
-    class MyViewHolder extends RecyclerView.ViewHolder {
+    class MyViewHolder extends SwipeToAction.ViewHolder {
 
-        public ImageView petImage;
+
         public TextView petName;
         public TextView petType;
         public TextView petStrain;
@@ -29,7 +31,7 @@ public class PetRecyclerViewAdapter extends RecyclerView.Adapter<PetRecyclerView
 
         MyViewHolder(View view) {
             super(view);
-            petImage = view.findViewById(R.id.petImage);
+
             petName = view.findViewById(R.id.petName);
             petType = view.findViewById(R.id.petType);
             petStrain = view.findViewById(R.id.petStrain);
@@ -49,11 +51,12 @@ public class PetRecyclerViewAdapter extends RecyclerView.Adapter<PetRecyclerView
 
     @Override
     public void onBindViewHolder(PetRecyclerViewAdapter.MyViewHolder holder, int position) {
-        Pet pets = listPets.get(position);
-        holder.petName.setText(pets.getName());
-        holder.petType.setText(pets.getPetType());
-        holder.petStrain.setText(pets.getStrain());
-        holder.petAge.setText(pets.getAge().toString());
+        Pet pet = listPets.get(position);
+        holder.petName.setText(pet.getName());
+        holder.petType.setText(pet.getPetType());
+        holder.petStrain.setText(pet.getStrain());
+        holder.petAge.setText(pet.getAge().toString());
+        holder.data = pet;
     }
 
     @Override

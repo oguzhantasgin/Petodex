@@ -20,7 +20,17 @@ public class Pet {
     private String petType;
 
     @ColumnInfo(name = "age")
-    private Double age;
+    private Integer age;
+
+    public Pet() {
+    }
+
+    public Pet(String name, String strain, String petType, Integer age) {
+        this.name = name;
+        this.strain = strain;
+        this.petType = petType;
+        this.age = age;
+    }
 
     public int getId() {
         return id;
@@ -54,11 +64,11 @@ public class Pet {
         this.petType = petType;
     }
 
-    public Double getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(Double age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 }
